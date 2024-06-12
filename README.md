@@ -27,22 +27,32 @@ This project is an implementation of the popular 2048 puzzle game. The objective
 
 ## How to Run on Your Local Machine
 
-1. Clone the repository:
+Make sure you use Node.js v14.x.x.
+
+ 1. Check Node.js version: Check your current Node.js version by running:
+
+```
+node -v
+```
+
+If you have another version, you need to download and install Node.js v14.x.x from the official [Node.js website](https://nodejs.org/).
+
+2. Clone the repository:
 ```
 git clone https://github.com/OleksiiNesteruk/2048_game.git
 ```
 
-1. Navigate to the game folder:
+3. Navigate to the game folder:
   ```
   cd 2048_game
   ```
 
-1. Install dependencies:
+4. Install dependencies:
 ```
 npm install
 ```
 
-1. Run the game:
+5. Run the game:
 ```
 npm start
 ```
